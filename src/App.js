@@ -1,5 +1,11 @@
+import PatientCard from "./components/Text";
+
 function App() {
-  return <div className="App">Hi </div>;
+  return (
+    <div>
+      <PatientCard username={name} Insnumber={number} />
+    </div>
+  );
 }
 
 export default App;
